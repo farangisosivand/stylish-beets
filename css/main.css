@@ -22,6 +22,10 @@ h2 {
   color: #3f1622;
 }
 
-ol, li {
+.common {
   list-style-type: lower-greek;
+}
+
+h2, ul, li {
+  list-style-type: circle;
 }
