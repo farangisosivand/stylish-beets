@@ -1,4 +1,5 @@
 html {
+  font-family: 'PT Serif'(regular);
   box-sizing: border-box;
 }
 
@@ -7,8 +8,9 @@ html {
 }
 
 body {
-  font: PT+Serif;
-  font-style: bold;
+  font-family: 'PT Serif', sans-serif;
+  font-weight: bolder;
+  line-height: 1.5;
   background-color: #c9b5ab;
   font-weight: normal;
 }
