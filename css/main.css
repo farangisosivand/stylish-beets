@@ -30,6 +30,11 @@ figcaption {
   color: #222;
 }
 
+figure figcaption {
+  text-align: center;
+}
+
+
 h2 {
   color: #3f1622;
 }
