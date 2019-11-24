@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  font: PT sans;
+  font: PT+Serif;
   font-style: bold;
   background-color: #c9b5ab;
   font-weight: normal;
