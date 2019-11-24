@@ -2,6 +2,7 @@ html {
   font-family: 'PT Serif'(regular) ;
 }
 body {
+  font-weight: normal;
   background-color: #c9b5ab;
 }
 h1{
