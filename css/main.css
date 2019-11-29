@@ -1,5 +1,6 @@
 html {
-  font-family: 'PT Sans';
+  font-family: "PT Sans";
+  font-weight: normal;
   box-sizing: border-box;
 }
 
@@ -8,11 +9,10 @@ html {
 }
 
 body {
-  font-family: 'PT Serif', sans-serif;
+  font-family: "PT Serif", sans-serif;
   font-weight: bolder;
   line-height: 1.5;
   background-color: #c9b5ab;
-  font-weight: normal;
 }
 
 h1 {
@@ -27,6 +27,7 @@ li, a {
 }
 
 figcaption {
+  font-weight: normal;
   font-style: italic;
   line-height: 1.5em;
   color: #222;
@@ -48,6 +49,23 @@ h2, ul, li {
   list-style-type: circle;
 }
 
+a {
+  text-decoration: none;
+}
+
 a:hover {
-  color: none;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #3f1622;
+}
+
+img {
+  width: 100%;
+}
+
+aside ul li {
+  color: #222;
+  font-weight: normal;
 }
